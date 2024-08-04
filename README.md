@@ -21,6 +21,7 @@ The project includes diverse datasets to illustrate the versatility of the machi
 5. **Logistic Regression**: A classification algorithm used to predict binary or multiclass outcomes.
 6. **Random Forest**: An ensemble learning method that builds multiple decision trees and merges them for improved accuracy.
 7. **Support Vector Machine (SVM)**: A powerful algorithm for classification tasks that finds the optimal hyperplane separating classes.
+
 BONUS TECHNIQUE: **Principal Component Analysis (PCA)**: A technique for reducing the dimensionality of datasets, enhancing visualization and performance.
 
 ## Results
