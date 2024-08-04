@@ -1,0 +1,19 @@
+
+K-means clustering is a widely used unsupervised machine learning algorithm that partitions a dataset into distinct clusters based on feature similarity. 
+The goal is to group similar data points together and find patterns within the data.
+
+Key Concepts:
+- Clusters: Groups of data points that share similar characteristics.
+- Centroids: The central point of a cluster, which is the mean of all points in that cluster.
+- Iteration: The algorithm involves iterative steps:
+    - Initialization: Randomly select K initial centroids.
+    - Assignment: Assign each data point to the nearest centroid, forming K clusters.
+    - Update: Recalculate centroids based on the mean of points in each cluster.
+    - Repeat: Continue the assignment and update steps until centroids stabilize or a stopping criterion is met.
+
+Advantages:
+- Simple and Efficient: Easy to understand and implement.
+- Scalable: Works well with large datasets.
+- Versatile: Can be used for various types of data and applications.
+
+Elbow Method: A technique to determine the optimal number of clusters by plotting the within-cluster sum of squares against different K values.

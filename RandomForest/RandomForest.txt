@@ -1,0 +1,20 @@
+
+Random Forest is an ensemble learning method used for classification and regression tasks. 
+It builds multiple decision trees and merges them to get a more accurate and stable prediction.
+
+Key Concepts:
+- Ensemble Learning: Combines the predictions from multiple models to improve the overall performance compared to individual models.
+- Decision Trees: Random Forest is built on top of decision trees. Each tree in the forest is constructed using a random subset of the data.
+- Bagging (Bootstrap Aggregating): Involves creating multiple subsets of the original data with replacement (bootstrapping) and building a decision tree on each subset. 
+The results are aggregated (averaged or voted) to produce the final prediction.
+- Feature Randomness: During the construction of each tree, a random subset of features is considered for splitting at each node. 
+This randomness helps create trees that are different from each other, reducing correlation among them and leading to better generalization.
+
+Advantages:
+- High Accuracy: By averaging the results of multiple trees, Random Forest often achieves high accuracy.
+- Robust to Overfitting: Although individual trees may overfit, the ensemble model mitigates this by averaging their predictions.
+- Feature Importance: Random Forest provides estimates of feature importance, which can be useful for understanding the data.
+
+Disadvantages:
+- Computationally Intensive: Building and combining multiple trees can be resource-intensive.
+- Interpretability: The model is less interpretable compared to a single decision tree due to the complexity of having many trees.

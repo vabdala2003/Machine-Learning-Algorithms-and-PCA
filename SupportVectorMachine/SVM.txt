@@ -1,0 +1,26 @@
+
+Support Vector Machine (SVM) is a powerful supervised learning algorithm used for both classification and regression tasks. 
+It is particularly effective in high-dimensional spaces and for problems where the number of dimensions exceeds the number of samples.
+
+Key Concepts:
+- Hyperplane: SVM aims to find the best decision boundary (hyperplane) that separates data points of different classes in a feature space.
+- Support Vectors: These are the data points that are closest to the hyperplane and influence its position and orientation. 
+They are critical in defining the optimal hyperplane.
+- Margin: The distance between the hyperplane and the nearest data point of each class is called the margin. 
+SVM seeks to maximize this margin, leading to better generalization on unseen data.
+
+Kernel Functions:
+- Linear Kernel: Suitable for linearly separable data.
+- Polynomial Kernel: Allows for curved decision boundaries by considering polynomial combinations of features.
+- Radial Basis Function (RBF) Kernel: Also known as the Gaussian kernel, it is used to create complex decision boundaries and works well for most problems.
+- Sigmoid Kernel: Similar to neural networks, used in specific cases.
+
+Advantages:
+- Effective in High Dimensions: SVM is particularly useful when the number of features is greater than the number of samples.
+- Robust to Overfitting: Especially in high-dimensional space, SVM tends to be less prone to overfitting compared to other classifiers.
+- Versatile: Through the use of different kernel functions, SVM can handle both linear and non-linear classification.
+
+Disadvantages:
+- Computational Complexity: Training an SVM can be slow and memory-intensive, especially with large datasets.
+- Choice of Kernel: Selecting the appropriate kernel and tuning hyperparameters (like C and gamma) can be challenging.
+- No Probabilistic Outputs: SVM does not inherently provide probabilities for predictions, though methods like Platt scaling can be used to estimate them.

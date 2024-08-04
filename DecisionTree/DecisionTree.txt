@@ -1,0 +1,15 @@
+
+A decision tree is a popular machine learning algorithm used for classification and regression tasks. It models decisions and their possible consequences as a tree-like structure, where:
+- Nodes represent features or attributes.
+- Branches represent decision rules based on those features.
+- Leaves represent the final outcomes or class labels.
+
+Advantages:
+- Easy to Understand: Decision trees are intuitive and easy to visualize.
+- Non-Linear Relationships: They can model complex non-linear relationships.
+- No Need for Feature Scaling: Unlike some algorithms, decision trees do not require normalization of features.
+
+Disadvantages:
+- Overfitting: Decision trees can become overly complex and fit the noise in the data.
+- Instability: Small changes in the data can lead to a completely different tree structure.
+- Bias: They can be biased towards features with more levels or categories.

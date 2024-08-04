@@ -1,0 +1,13 @@
+
+Logistic regression is a statistical and machine learning technique used for classification tasks. 
+It predicts the probability of an outcome based on one or more predictor variables.
+
+Advantages:
+- Probabilistic Interpretation: Provides probabilities for the binary outcome, which can be useful for understanding the uncertainty in predictions.
+- Efficiency: Computationally efficient and works well with large datasets.
+- Simplicity: Easy to implement and interpret, making it suitable for various applications.
+
+Disadvantages:
+- Linearity Assumption: Assumes a linear relationship between the independent variables and the log-odds of the dependent variable.
+- Binary Outcomes: Primarily suited for binary classification; extensions exist for multi-class problems (e.g., multinomial logistic regression).
+- Not Suitable for Complex Relationships: May not capture non-linear relationships or interactions between features without additional techniques.

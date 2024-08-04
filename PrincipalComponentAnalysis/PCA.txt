@@ -1,0 +1,22 @@
+
+Principal Component Analysis (PCA) is a widely used statistical technique for dimensionality reduction, feature extraction, and data visualization. 
+It transforms a dataset with potentially correlated features into a set of linearly uncorrelated variables called principal components.
+
+Key Concepts:
+- Dimensionality Reduction: PCA reduces the number of features in a dataset while preserving as much variance as possible. This is useful for simplifying models, 
+reducing computational costs, and mitigating the curse of dimensionality.
+- Principal Components: These are new variables created as linear combinations of the original features. They are orthogonal to each other and ranked by the amount of variance they capture from the data.
+
+Advantages:
+- Data Compression: Reduces the size of the dataset while preserving essential information.
+- Noise Reduction: Helps eliminate noise and redundant features.
+- Improved Visualization: Facilitates visualization of high-dimensional data in 2D or 3D plots.
+
+Disadvantages:
+- Interpretability: Principal components are linear combinations of original features and may not have clear, interpretable meanings.
+- Variance Focus: PCA emphasizes variance, which may not always align with the most relevant features for specific tasks.
+
+Applications:
+- Data Preprocessing: Used before applying machine learning algorithms to improve performance.
+- Image Compression: Reduces the dimensionality of image data for storage and transmission.
+- Exploratory Data Analysis: Identifies patterns and relationships in high-dimensional datasets.
