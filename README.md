@@ -12,7 +12,7 @@ Machine learning is a powerful tool for extracting insights and making predictio
 
 The project includes diverse datasets to illustrate the versatility of the machine learning algorithms.
 
-## Algorithms Implemented + Bonus technique
+## Algorithms Implemented
 
 1. **Decision Tree**: A tree-structured model used for classification and regression tasks.
 2. **K-Means Clustering**: An unsupervised learning algorithm for partitioning data into clusters.
